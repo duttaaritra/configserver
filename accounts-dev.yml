@@ -2,4 +2,4 @@ config:
   name: account-ms-default
   item2: THis is 2nd item
   item3: This is 3rd item
-  item4: {cipher}6b02afe346050c5c1072922a0f6bfa42d9bdfc4a8ee228d044cbdec40fe24678
+  item4: "{cipher}6b02afe346050c5c1072922a0f6bfa42d9bdfc4a8ee228d044cbdec40fe24678"

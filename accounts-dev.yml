@@ -20,17 +20,25 @@ info:
     name: "Accounts"
     Description: "Account micro service"
     version: "0.0.1-SNAPSHOT"
-management:
-  endpoints:
-    web:
-      exposer:
-        include: "*"
-  endpoint:
-    shutdown:
-      access: unrestricted
-  info:
-    env:
-      access: unrestricted
-endpoints:
-    shutdown:
-      access: unrestricted
+logging:
+  level:
+    com:
+      netflix:
+        discovery: DEBUG 
+    com:
+      netflix: 
+        eureka: DEBUG
+#management:
+#  endpoints:
+#    web:
+#      exposer:
+#        include: "*"
+#  endpoint:
+#    shutdown:
+#      access: unrestricted
+#  info:
+#    env:
+#      access: unrestricted
+#endpoints:
+#    shutdown:
+#      access: unrestricted

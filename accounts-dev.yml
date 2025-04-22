@@ -14,10 +14,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
 logging:
-  level:
-    com:
-      netflix:
-        discovery: DEBUG 
-    com:
-      netflix: 
-        eureka: DEBUG
+  level: DEBUG

@@ -15,3 +15,8 @@ eureka:
     registerWithEureka: true
     service-url:
       defaultZone: http://localhost:7075/eureka/
+info:
+  app:
+    name: "Accounts"
+    Description: "Account micro service"
+    version: "0.0.1-SNAPSHOT"

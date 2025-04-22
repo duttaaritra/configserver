@@ -7,38 +7,3 @@ config:
   item2: THis is 2nd item
   item3: This is 3rd item
   item4: "{cipher}6b02afe346050c5c1072922a0f6bfa42d9bdfc4a8ee228d044cbdec40fe24678"
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:7075/eureka/
-info:
-  app:
-    name: "Accounts"
-    Description: "Account micro service"
-    version: "0.0.1-SNAPSHOT"
-logging:
-  level:
-    com:
-      netflix:
-        discovery: DEBUG 
-    com:
-      netflix: 
-        eureka: DEBUG
-#management:
-#  endpoints:
-#    web:
-#      exposer:
-#        include: "*"
-#  endpoint:
-#    shutdown:
-#      access: unrestricted
-#  info:
-#    env:
-#      access: unrestricted
-#endpoints:
-#    shutdown:
-#      access: unrestricted

@@ -14,4 +14,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
 logging:
-  level: DEBUG
+  level: 
+    root: INFO
+    com.netflix.discovery: DEBUG
+    com.netflix.eureka: DEBUG

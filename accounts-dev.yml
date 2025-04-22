@@ -9,10 +9,10 @@ config:
   item4: "{cipher}6b02afe346050c5c1072922a0f6bfa42d9bdfc4a8ee228d044cbdec40fe24678"
 eureka:
   instance:
-    preferIpAddress: true
+    prefer-ip-address: true
   client:
-    fetchRegistry: true
-    registerWithEureka: true
+    fetch-registry: true
+    register-with-eureka: true
     service-url:
       defaultZone: http://localhost:7075/eureka/
 info:

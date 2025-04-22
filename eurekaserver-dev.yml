@@ -3,6 +3,8 @@ server:
   servlet:
     context-path: /eureka
 eureka:
+  server:
+    enable-self-preservation: false
   instance:
     hostname: localhost
   client:

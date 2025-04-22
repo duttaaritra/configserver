@@ -8,5 +8,8 @@ config:
   item3: This is 3rd item
   item4: "{cipher}6b02afe346050c5c1072922a0f6bfa42d9bdfc4a8ee228d044cbdec40fe24678"
 eureka:
-  instance:
-    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:7075/eureka/
+    register-with-eureka: true
+    fetch-registry: true

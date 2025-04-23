@@ -10,9 +10,12 @@ server:
 eureka:
   client:
     service-url:
-      default-zone: http://localhost:7075/eureka/
+      defaultZone: http://localhost:7075/eureka/
     register-with-eureka: true
     fetch-registry: true
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
 logging:
   level: 
     root: INFO

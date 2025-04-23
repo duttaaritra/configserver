@@ -10,7 +10,7 @@ config:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:7075/eureka/
+      defaultZone: http://localhost:7075/eureka
     register-with-eureka: true
     fetch-registry: true
 logging:

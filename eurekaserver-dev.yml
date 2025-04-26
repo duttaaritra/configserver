@@ -1,7 +1,7 @@
 server:
   port: 7075
   servlet:
-    context-path: /eureka
+    context-path: /eureka-server
 eureka:
   server:
     enable-self-preservation: false
@@ -10,5 +10,5 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
-    service-url:
-      defaultZone: http://localhost:7075/eureka/
+   # service-url:
+    #  defaultZone: http://localhost:7075/eureka-server/

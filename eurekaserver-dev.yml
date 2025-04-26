@@ -1,7 +1,5 @@
 server:
   port: 7075
-  servlet:
-    context-path: /eureka-server
 eureka:
   server:
     enable-self-preservation: false

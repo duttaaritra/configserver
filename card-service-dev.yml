@@ -22,7 +22,7 @@ eureka:
     fetch-registry: true
   instance:
     hostname: localhost
-    prefer-ip-address: false
+    prefer-ip-address: true
     metadata-map:
       context-path: /card-service
 logging:

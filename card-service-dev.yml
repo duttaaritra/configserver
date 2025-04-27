@@ -22,7 +22,7 @@ eureka:
     fetch-registry: true
   instance:
     hostname: localhost
-    prefer-ip-address: true
+    prefer-ip-address: false
 logging:
   level: 
     root: INFO

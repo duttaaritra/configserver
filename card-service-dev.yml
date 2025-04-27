@@ -10,8 +10,8 @@ spring:
    ddl-auto: update
    show-sql: true
    dialect: org.hibernate.dialect.MySQLDialect
- server:
-  port: 7071
-  servlet:
-   context-path: /card-service
+server:
+ port: 7071
+ servlet:
+  context-path: /card-service
  

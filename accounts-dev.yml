@@ -14,7 +14,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    hostname: localhost
+    hostname: account-service
     prefer-ip-address: true
 logging:
   level: 

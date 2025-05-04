@@ -21,3 +21,5 @@ logging:
     root: INFO
     com.netflix.discovery: DEBUG
     com.netflix.eureka: DEBUG
+service:
+  card: card-service

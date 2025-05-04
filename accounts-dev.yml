@@ -7,15 +7,15 @@ config:
   item2: THis is 2nd item
   item3: This is 3rd item
   item4: "{cipher}6b02afe346050c5c1072922a0f6bfa42d9bdfc4a8ee228d044cbdec40fe24678"
-#eureka:
-  #client:
-    #service-url:
-      #defaultZone: http://host.docker.internal:8761/eureka/
-    #register-with-eureka: true
-    #fetch-registry: true
-  #instance:
-    #hostname: account-service
-    #prefer-ip-address: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7075/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    hostname: account-service
+    prefer-ip-address: true
 logging:
   level: 
     root: INFO

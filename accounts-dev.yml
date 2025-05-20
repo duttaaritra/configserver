@@ -16,6 +16,7 @@ eureka:
   instance:
     hostname: account-service
     prefer-ip-address: true
+    ip-address: host.docker.internal
 logging:
   level: 
     root: INFO

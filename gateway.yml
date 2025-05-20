@@ -17,6 +17,6 @@ eureka:
     prefer-ip-address: true
 logging:
   level: 
-    root: INFO
+    root: DEBUG
 
  

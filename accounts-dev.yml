@@ -16,7 +16,7 @@ eureka:
   instance:
     hostname: account-service
     prefer-ip-address: true
-    #ip-address: localhost
+    ip-address: localhost
 logging:
   level: 
     root: INFO

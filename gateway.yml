@@ -3,8 +3,8 @@ spring:
   name: gateway
 server:
  port: 7077
- servlet:
-  context-path: /gateway
+ #servlet:
+  #context-path: /gateway
 eureka:
   client:
     service-url:

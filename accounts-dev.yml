@@ -24,4 +24,5 @@ logging:
     com.netflix.discovery: DEBUG
     com.netflix.eureka: DEBUG
 service:
-  card: localhost:7071/card-service
+  card: card-service
+    url: http://localhost:7071/card-service

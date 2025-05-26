@@ -25,4 +25,4 @@ logging:
     com.netflix.eureka: DEBUG
 service:
   card: card-service
-    url: abcd
+  url: abcd

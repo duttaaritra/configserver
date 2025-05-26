@@ -23,7 +23,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    hostname: card-service
+    hostname: localhost
     prefer-ip-address: true
     ip-address: localhost
 logging:

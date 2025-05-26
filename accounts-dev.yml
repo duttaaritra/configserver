@@ -25,4 +25,4 @@ logging:
     com.netflix.eureka: DEBUG
 service:
   card: card-service
-    ur: abcd
+    url: http://localhost:7071/card-service

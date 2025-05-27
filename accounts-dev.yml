@@ -26,4 +26,4 @@ logging:
 service:
   card: 
     name: card-service
-    url: http://localhost:7071/card-service
+    url: http://localhost:7071

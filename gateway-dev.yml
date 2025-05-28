@@ -45,6 +45,7 @@ eureka:
   instance:
     hostname: localhost
     prefer-ip-address: true
+    ip-address: localhost
 logging:
   level: 
     root: DEBUG

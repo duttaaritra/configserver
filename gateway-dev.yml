@@ -43,7 +43,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    hostname: gateway
+    hostname: localhost
     prefer-ip-address: true
     ip-address: localhost
 logging:

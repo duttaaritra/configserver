@@ -30,9 +30,9 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    hostname: localhost
+    #hostname: localhost
     prefer-ip-address: true
-    ip-address: localhost
+    #ip-address: localhost
 logging:
   level: 
     root: DEBUG

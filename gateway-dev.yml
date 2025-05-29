@@ -21,34 +21,4 @@ spring:
           predicates:
             - Path=/card-service/**
           filters:
-            - RewritePath=/card-service/(?<remaining>.*), /card-service/${remaining}			
-server:
-  port: 7077 
-eureka:
-  client:
-    service-url:
-      #defaultZone: http://eurekaserver:7075/eureka/
-      defaultZone: http://localhost:7075/eureka/
-    register-with-eureka: true
-    fetch-registry: true
-  instance:
-    hostname: localhost
-    prefer-ip-address: true
-    ip-address: localhost
-logging:
-  level: 
-    root: DEBUG
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    gateway:
-      enabled: true
-  info:
-    app:
-      name: "Gateway"
-      description: "Gateway server"
-      version: "v1"
+            - RewritePath=/card-service/(?<remaining>.*), /card-service/${remaining}

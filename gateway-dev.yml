@@ -31,7 +31,7 @@ eureka:
     fetch-registry: true
   instance:
     hostname: localhost
-    ip-address: localhost
+    #ip-address: localhost
     prefer-ip-address: true
     non-secure-port: 7077
     instance-id: ${spring.application.name}:${random.value}

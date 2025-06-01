@@ -30,9 +30,10 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    #hostname: localhost
+    hostname: localhost
     prefer-ip-address: true
-    ip-address: localhost
+    non-secure-port: 7077
+    instance-id: ${spring.application.name}:${random.value}
 logging:
   level: 
     root: DEBUG

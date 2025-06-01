@@ -17,7 +17,9 @@ eureka:
   instance:
     hostname: account-service
     prefer-ip-address: true
-    ip-address: localhost
+    #ip-address: localhost
+    non-secure-port: 7070
+    instance-id: ${spring.application.name}:${random.value}
 logging:
   level: 
     root: INFO

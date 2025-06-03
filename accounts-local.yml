@@ -26,4 +26,4 @@ logging:
 service:
   card:
     name: card-service
-    url: http://card-service:7071/card-service
+    url: http://card-service-loc:7071/card-service

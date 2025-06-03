@@ -11,7 +11,7 @@ spring:
      - id: account-service
        uri: lb://ACCOUNTS
        predicates:
-        - Path=/accounts/**
+        - Path=gateway/accounts/**
        filters:
         - RewritePath=/accounts/(?<remaining>.*), /accounts/$\{remaining}
      - id: card-service

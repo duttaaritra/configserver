@@ -25,8 +25,7 @@ eureka:
   instance:
     hostname: localhost
     prefer-ip-address: true
-    #metadata-map:
-     # context-path: /card-service
+    ip-address: localhost
 logging:
   level: 
     root: INFO

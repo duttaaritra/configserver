@@ -10,19 +10,6 @@ spring:
     httpclient:
       connect-timeout: 5000
       response-timeout: 2s
-    #routes:
-     #- id: account-service
-       #uri: lb://ACCOUNTS
-       #predicates:
-        #- Path=/accounts/**
-       #filters:
-        #- RewritePath=/accounts/(?<remaining>.*), /accounts/$\{remaining}
-     #- id: card-service
-       #uri: lb://CARD-SERVICE
-       #predicates:
-        #- Path=/card-service/**
-       #filters:
-        #- RewritePath=/card-service/(?<remaining>.*), /card-service/$\{remaining}
  management:
   endpoints:
    web:

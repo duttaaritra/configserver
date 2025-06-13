@@ -13,7 +13,7 @@ spring:
  resilience4j:
    circuitbreaker:
      instances:
-       dafault:
+       accountServiceCircuitBreaker:
          registerHealthIndicator: true
          slidingWindowSize: 2
          permittedNumberOfCallsInHalfOpenState: 2

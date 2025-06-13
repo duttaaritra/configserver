@@ -47,4 +47,4 @@ eureka:
     ip-address: localhost
 logging:
   level: 
-    root: DEBUG
+    root: INFO

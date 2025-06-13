@@ -15,10 +15,10 @@ spring:
      instances:
        accountServiceCircuitBreaker:
          registerHealthIndicator: true
-         slidingWindowSize: 2
+         slidingWindowSize: 6
          permittedNumberOfCallsInHalfOpenState: 2
          waitDurationInOpenState: 10s
-         failureRateThreshold: 5     
+         failureRateThreshold: 50  
  management:
   endpoints:
    web:

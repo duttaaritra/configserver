@@ -18,7 +18,10 @@ spring:
          slidingWindowSize: 6
          permittedNumberOfCallsInHalfOpenState: 2
          waitDurationInOpenState: 10s
-         failureRateThreshold: 50  
+         failureRateThreshold: 50
+     instances:
+      accountServiceCircuitBreaker:
+        baseConfig: default
  management:
   endpoints:
    web:

@@ -22,6 +22,21 @@ spring:
      instances:
       accountServiceCircuitBreaker:
         baseConfig: default
+   retry:
+    instances:
+      accountServiceCircuitBreaker:
+        maxAttempts: 4
+        waitDuration: 1s
+        exponentialBackoff:
+          enabled: true
+          multiplier: 2
+          maxWaitDuration: 5s
+        retryExceptions:
+          - java.lang.Exception
+        ignoreExceptions:
+          - java.lang.IllegalArgumentException
+
+        
  management:
   endpoints:
    web:

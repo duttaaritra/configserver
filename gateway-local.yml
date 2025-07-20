@@ -14,7 +14,7 @@ spring:
    oauth2:
      resourceserver:
        jwt:
-         jwt-set-uri: http://localhost:8080/realms/master/protocol/openid-connect/certs
+         jwk-set-uri: http://localhost:8080/realms/master/protocol/openid-connect/certs
  resilience4j:
    circuitbreaker:
      config:

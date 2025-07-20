@@ -10,6 +10,11 @@ spring:
     httpclient:
       connect-timeout: 5000
       response-timeout: 2s
+ security:
+   oauth2:
+     resourceserver:
+       jwt:
+         jwt-set-uri: http://localhost:8080/realms/master/protocol/openid-connect/certs
  resilience4j:
    circuitbreaker:
      config:
